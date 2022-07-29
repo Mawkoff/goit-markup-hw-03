@@ -451,10 +451,12 @@ body {
 
 /* ------------MAIN */
 
-.projects {
-    padding-top: 94px;
 
 
+.project-item {
+    margin-bottom: 50px;
+    
+    
 }
 
 .projects-list {
@@ -495,15 +497,24 @@ color: var(--main-title-color);
 cursor: pointer;
 }
 
-.development {
-    
+.development-text {
+padding-top: 20px;
+padding-bottom: 4px;
+
 }
+    
+.development {
+
+
+}
+
 .development-list {
 
     
 }
 .development-foto {
 text-decoration: none;
+
     
 }
 .development-title {
