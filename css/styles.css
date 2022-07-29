@@ -21,10 +21,53 @@ body {
     text-decoration: none;
 }
 
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid rgb(169, 17, 17); 
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p {
+margin: 0;
+padding: 0
+}
+  
+
+
+
+img {
+    display: block;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+
+
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
 /* ------------------ HEADER */
 
 .header {
+    
     background: var(--primary-white-color)
+    
 }
 
 .header-item {
@@ -38,6 +81,7 @@ letter-spacing: 0.02em;
 
 .header-logo {
 font-family: 'Raleway', 'sans-serif';
+
 }
 
 
@@ -144,21 +188,54 @@ text-decoration: none;
 /* --------------------HERO */
 
 .hero {
+text-align: center;
+    
+    
 background-color: #2F303A;
+
+
 }
 
+
+
 .hero-title {
+    
+text-align: center;
+max-width: 696px;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 30px;
+
+
 
 color: var(--primary-white-color);
 
 }
 
+.hero {
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+
+}
+
+
+
 
 .hero-button {
+text-align: center;
+padding-top: 10px;
+padding-right: 32px;
+padding-bottom: 10px;
+padding-left: 32px;
+
+
+
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -169,9 +246,18 @@ color: var(--primary-white-color);
     border-radius: 4px;
     border: none;
     cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    
+
+
 }
 
 /* ------------ABOUT */
+
+.about {
+    
+}
 
 .visually-hidden {
     position: absolute;
@@ -192,6 +278,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-bottom: 10px;
 
 
 color: var(--main-title-color);
@@ -202,6 +289,7 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 
+
 color: var(--adress-prime-color)
 }
 .work-about {
@@ -209,17 +297,23 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 letter-spacing: 0.03em;
+margin-bottom: 50px;
 
 color: var(--main-title-color);
 }
 
 .about-list {
 text-decoration: none;
-    
+
+
+
 }
+
+
 
 .work-foto {
 text-decoration: none;
+margin-bottom: 94px;
     
 }
 
@@ -227,9 +321,14 @@ text-decoration: none;
 
 .team {
 background: #F5F4FA;
+padding-top: 94px;
+padding-bottom: 94px;
 }
 
 .team-title {
+margin-bottom: 50px;
+
+
 font-weight: 700;
 font-size: 36px;
 line-height: 1.66;
@@ -239,13 +338,27 @@ color: var(--main-title-color);
 }
 .team-list {
 text-decoration: none;
+
     
 }
 .team-item {
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+    
 }
 .team-foto {
+
+
 }
+
+.team-info {
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
 .team-pre-title {
+margin-bottom: 10px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -254,6 +367,7 @@ letter-spacing: 0.03em;
 color: var(--main-title-color);
 }
 .team-list-text {
+    
 font-size: 16px;
 line-height: 1.18;
 letter-spacing: 0.03em;
@@ -265,8 +379,11 @@ color: var(--adress-prime-color)
 
 .info {
 background-color: #2F303A;
+padding-top: 60px;
+padding-bottom: 60px;
 }
 .info-logo {
+margin-bottom: 20px;
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
@@ -292,12 +409,18 @@ letter-spacing: 0.03em;
 color: var(--primary-white-color);
 }
 .adress-city {
+margin-bottom: 9px;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 
 color: var(--primary-white-color)
+}
+
+.address-mail {
+margin-bottom: 9px;
+    
 }
 
 .address-mail,
@@ -329,6 +452,7 @@ body {
 /* ------------MAIN */
 
 .projects {
+    padding-top: 94px;
 
 
 }
@@ -401,6 +525,7 @@ color: var(--adress-prime-color)
 }
 
 /* --------FOOTER */
+
 
 .info-logo {
 text-decoration: none;
