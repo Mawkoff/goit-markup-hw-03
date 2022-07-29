@@ -65,7 +65,8 @@ img {
 /* ------------------ HEADER */
 
 .header {
-    
+    padding-top: 24px;
+    padding-bottom: 25px;
     background: var(--primary-white-color)
     
 }
@@ -188,6 +189,8 @@ text-decoration: none;
 /* --------------------HERO */
 
 .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
 text-align: center;
     
     
@@ -215,15 +218,6 @@ margin-bottom: 30px;
 color: var(--primary-white-color);
 
 }
-
-.hero {
-
-    padding-top: 200px;
-    padding-bottom: 200px;
-    
-
-}
-
 
 
 
