@@ -88,6 +88,12 @@ img {
 
 /* ----------HEADER---------- */
 
+.header {
+
+
+border: 1px solid #ECECEC;
+}
+
 
 .header-item {
 
@@ -409,6 +415,10 @@ padding-top: 94px;
 padding-bottom: 94px;
 }
 
+.team-text {
+    margin-top: 94px;
+}
+
 .team-title {
 text-align: center;
 
@@ -637,6 +647,7 @@ padding-bottom: 4px;
 
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 94px;
     
 
 
@@ -663,6 +674,9 @@ padding-bottom: 4px;
   }
 
 .development-list {
+
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
 
     
 }
