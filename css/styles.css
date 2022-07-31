@@ -573,6 +573,9 @@ body {
 }
 
 .team-text {
+
+
+
     margin-right: auto;
     margin-left: auto;
     display: flex;
@@ -587,10 +590,8 @@ body {
 
 
 .projects-list {
-    
-    
-    
- 
+    display: inline-block;
+
 
 text-decoration: none;   
 font-weight: 500;
