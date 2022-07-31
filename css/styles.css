@@ -142,7 +142,7 @@ color: var(--second-title-color)
 .title-studio:focus,
 .title-studio:hover {
 
-    color: var(--second-title-color);
+    
 }
 
 .header-list {
@@ -320,8 +320,8 @@ padding-left: 32px;
 /* ------------ABOUT */
 
 .about {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    
+    
     margin-bottom: 94px;
     
 }
@@ -601,6 +601,11 @@ letter-spacing: 0.03em;
 color: var(--main-title-color);
 }
 
+
+
+
+
+
 .projects-button:hover,
 .projects-button:focus
 {
@@ -633,12 +638,20 @@ letter-spacing: 0.03em;
 
 color: var(--main-title-color);
 cursor: pointer;
+
+padding-top: 6px;
+padding-right: 22px;
+padding-bottom: 6px;
+padding-left: 22px; 
+
 }
 
 .development-text {
 
 padding-top: 20px;
-padding-bottom: 4px;
+padding-bottom: 20px;
+padding-right: 24px;
+padding-left: 24px;
 
 }
     
@@ -714,6 +727,7 @@ color: var(--adress-prime-color)
 
 .info-logo {
 text-decoration: none;
+margin-bottom: 20px;
 }
 
 .info-logo:hover,
@@ -723,6 +737,10 @@ text-decoration: none;
 }
 
 .logo {
+}
+
+.address-city {
+    margin-bottom: 9px;
 }
 .address {
 
@@ -736,6 +754,15 @@ letter-spacing: 0.03em;
 
 color: var(--primary-white-color);
 }
+
+.address-mail {
+    margin-bottom: 9px;
+}
+
+.address-tel {
+    margin-bottom: 9px;
+}
+
 .address-mail,
 .address-tel {
 
