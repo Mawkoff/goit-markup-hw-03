@@ -570,8 +570,11 @@ padding-bottom: 60px;
 }
 
 .footer-list {
-    
+
+    display: block;
     list-style: none;
+
+    
 }
 
 .footer-title-list {
@@ -614,6 +617,8 @@ color: var(--primary-white-color);
 }
 .adress-city {
 
+margin-bottom: 9px;
+
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -621,7 +626,7 @@ letter-spacing: 0.03em;
 
 color: var(--primary-white-color)
 
-margin-bottom: 9px;
+
 
 }
 
@@ -645,7 +650,7 @@ color: rgba(255, 255, 255, 0.6);
 .address-tel {
 
 
-    margin-bottom: 60px;
+    
 
 
 }
@@ -843,12 +848,16 @@ color: var(--adress-prime-color)
 
 }
 
-/* --------FOOTER */
+/* --------FOOTER----------- */
 
 
 .info-logo {
 
+
+
 text-decoration: none;
+
+
 margin-bottom: 20px;
 
 }
@@ -889,7 +898,7 @@ color: var(--primary-white-color);
 
 .address-tel {
 
-    margin-bottom: 9px;
+    
 
 }
 
