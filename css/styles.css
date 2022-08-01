@@ -105,7 +105,7 @@ img {
 .header {
 
 
-border: 1px solid #ECECEC;
+border-bottom: 1px solid #ECECEC;
 
 }
 
@@ -141,8 +141,7 @@ letter-spacing: 0.02em;
 font-family: 'Raleway', 'sans-serif';
 
 
-margin-top: 24px;
-margin-bottom: 25px;
+
 
 }
 
@@ -302,7 +301,7 @@ text-decoration: none;
     padding-top: 200px;
     padding-bottom: 200px;
 
-    margin-bottom: 94px;
+    
 
 text-align: center;
 
@@ -371,7 +370,8 @@ padding-left: 32px;
 /* ------------ABOUT */
 
 .about {
-    
+    padding-top: 94px;
+    padding-bottom: 94px;
     
     margin-bottom: 94px;
     
@@ -453,7 +453,7 @@ margin-bottom: 50px;
 .about-list {
 
 text-decoration: none;
-min-width: 270px;
+width: 270px;
 
 }
 
@@ -464,13 +464,20 @@ min-width: 270px;
 text-decoration: none;
 
 
-margin-bottom: 94px;
+
     
 }
 
 
 
 /* -----------TEAM */
+
+.work {
+
+    padding-bottom: 94px;
+
+
+}
 
 .team-work {
     
@@ -483,7 +490,7 @@ padding-bottom: 94px;
 
 .team-text {
 
-    margin-top: 94px;
+    
 
 }
 
@@ -503,10 +510,9 @@ color: var(--main-title-color);
 }
 
 .team-list {
+
     display: flex;
     gap: 30px;
-
-    max-width: 270px;
 
 text-decoration: none;
 
@@ -562,7 +568,18 @@ padding-bottom: 60px;
 
 
 }
+
+.footer-list {
+    
+    list-style: none;
+}
+
+.footer-title-list {
+    
+}
+
 .info-logo {
+
 
 font-family: 'Raleway';
 font-weight: 700;
@@ -625,6 +642,14 @@ color: rgba(255, 255, 255, 0.6);
 
 }
 
+.address-tel {
+
+
+    margin-bottom: 60px;
+
+
+}
+
 .adress-city:hover,
 .adress-city:focus,
 .address-mail:hover,
@@ -648,17 +673,14 @@ body {
 
 
 
-.project-item {
-
-    margin-bottom: 50px;
-    
-}
-
 /* --------------TEAM LIST--------- */
 
 .team {
 
     background: #FFFFFF;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 }
 
@@ -670,6 +692,8 @@ body {
     justify-content: center;
     
     gap: 8px;
+
+    margin-bottom: 50px;
     
 }
 
@@ -737,6 +761,11 @@ padding-bottom: 20px;
 padding-right: 24px;
 padding-left: 24px;
 
+border: 1px solid #EEEEEE;
+border-bottom: 54px;
+border-right: 24px;
+border-left: 24px;
+
 }
     
 
@@ -748,7 +777,7 @@ padding-left: 24px;
     gap: 30px;
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 94px;
+    
     
 }
 
@@ -777,7 +806,7 @@ padding-left: 24px;
     width: 370px;
 
 background: #FFFFFF;
-border: 1px solid #EEEEEE;
+
 
     
 }
@@ -788,6 +817,8 @@ text-decoration: none;
     
 }
 .development-title {
+
+    margin-bottom: 4px;
 
 font-weight: 700;
 font-size: 18px;
@@ -801,11 +832,15 @@ color: var(--main-title-color);
 
 .development-pre-title {
 
+    
+
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
 
 color: var(--adress-prime-color)
+
+
 
 }
 
