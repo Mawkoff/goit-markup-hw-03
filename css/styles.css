@@ -762,9 +762,7 @@ padding-right: 24px;
 padding-left: 24px;
 
 border: 1px solid #EEEEEE;
-border-bottom: 54px;
-border-right: 24px;
-border-left: 24px;
+
 
 }
     
@@ -781,7 +779,7 @@ border-left: 24px;
     
 }
 
-.flex-element {
+.development-list {
 
     
     
@@ -790,12 +788,12 @@ border-left: 24px;
     
 }
 
-.flex-element:nth-child(3n - 1) {
+.development-list:nth-child(3n - 1) {
 
     margin-right: 0;
 }
 
-.flex-element:nth-last-child(-n + 6) {
+.development-list:nth-last-child(-n + 6) {
 
     margin-bottom: 0;
     
